@@ -15,5 +15,8 @@ class EnigmaTest < Minitest::Test
     assert_respond_to @e, :encrypt
   end
 
-  def test_encrypt_method_takes
+  def test_encrypt_method_requires_message_arg
+    skip
+    assert_
+  end
 end
